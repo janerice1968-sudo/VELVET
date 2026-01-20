@@ -8,7 +8,7 @@ export const MODELS: Model[] = [
     name: 'Elena',
     age: 24,
     location: 'Miami, FL',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/hFxfv8LF/047d9cbf26c8e71e5f82f3f3db982477.jpg/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600&h=800',
     isLive: true,
     viewerCount: 1240,
     tags: ['Seductive', 'Latin Vibes', 'Midnight Dance']
