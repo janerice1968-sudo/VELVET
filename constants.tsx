@@ -18,7 +18,7 @@ export const MODELS: Model[] = [
     name: 'Sasha',
     age: 26,
     location: 'Los Angeles, CA',
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/HTcfVfNr/655f0628a14b9051310717494c1ffac7.jpg/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600&h=800',
     isLive: true,
     viewerCount: 856,
     tags: ['Elegant Queen', '1-on-1 Private']
