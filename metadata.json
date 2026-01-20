@@ -1,0 +1,9 @@
+
+{
+  "name": "Velvet - Premium Adult Social & Live",
+  "description": "A luxury adult dating and live show landing page for the US market, featuring modern UI design, real-time interactivity, and highly seductive layout.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
