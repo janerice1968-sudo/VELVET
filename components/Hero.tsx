@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
 
   // Active user avatars
   const avatars = [
-    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100&h=100',
-    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=100&h=100',
-    'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=100&h=100',
-    'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100&h=100'
+    'https://i.ibb.co/7dtXwT5z/20201014213922-fd65f.jpg',
+    'https://https://i.ibb.co/nsxNfFGY/20230326221613-7e73d-thumb-400-0.jpg',
+   'https://i.ibb.co/DgWrYzKR/myyf255rzvn.jpg',
+    'https://i.ibb.co/zHVynr62/sljpiz0y2ht.jpg'
   ];
 
   return (
