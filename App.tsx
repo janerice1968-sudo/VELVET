@@ -19,7 +19,7 @@ const App: React.FC = () => {
       <Navbar />
       
       <main>
-        <Hero />
+        <https://i.ibb.co/rGPQS01n/909ad0683961a413845897548483698b.jpg />
         
         {/* Social Proof Bar */}
         <section className="bg-zinc-900 py-12 border-y border-white/5">
