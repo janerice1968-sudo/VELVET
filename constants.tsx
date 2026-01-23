@@ -37,7 +37,7 @@ export const MODELS: Model[] = [
     name: 'Chloe',
     age: 25,
     location: 'Austin, TX',
-    imageUrl: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/zHtzCZGx/7b47d1160fc3530748f2964a7f98743c.jpg',
     isLive: true,
     viewerCount: 3200,
     tags: ['Top Elite', 'High Challenge']
