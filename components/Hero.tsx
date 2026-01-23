@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
         <div className="relative animate-in fade-in zoom-in duration-1000 hidden lg:block">
           <div className="relative aspect-[4/5] w-full max-w-lg mx-auto rounded-[40px] overflow-hidden shadow-[0_50px_100px_rgba(0,0,0,0.6)] border border-white/10 group bg-zinc-900">
              <img 
-              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=800&h=1000"
+              src="https://i.ibb.co/rGPQS01n/909ad0683961a413845897548483698b.jpg&fit=crop&q=80&w=800&h=1000"
                className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-110" 
                alt="Featured Western Muse"
                loading="eager"
