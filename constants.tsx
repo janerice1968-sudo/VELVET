@@ -16,7 +16,7 @@ export const GLOBAL_CONFIG = {
 // 🔗 在这里更换您的追踪链接 (Tracking Links)
 // ==========================================
 export const TRACKING_LINKS = {
-  MAIN_CTA: "https://your-tracking-link-here.com/main", // 主行动按钮 (Hero, Footer, Matching)
+  MAIN_CTA: "https://baidu.com", // 主行动按钮 (Hero, Footer, Matching)
   LIVE_WATCH: "https://your-tracking-link-here.com/live", // 模特点击观看链接
   NAV_JOIN: "https://your-tracking-link-here.com/signup", // 导航栏注册链接
 };
