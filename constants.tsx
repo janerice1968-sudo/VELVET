@@ -2,13 +2,49 @@
 import React from 'react';
 import { Model, Testimonial } from './types';
 
+// ==========================================
+// ⚙️ 全局配置 (Global Configuration)
+// ==========================================
+export const GLOBAL_CONFIG = {
+  SITE_NAME: "Velvet",
+  REGION: "United States",
+  MIN_AGE: 18,
+  CURRENCY: "USD",
+};
+
+// ==========================================
+// 🔗 在这里更换您的追踪链接 (Tracking Links)
+// ==========================================
+export const TRACKING_LINKS = {
+  MAIN_CTA: "https://your-tracking-link-here.com/main", // 主行动按钮 (Hero, Footer, Matching)
+  LIVE_WATCH: "https://your-tracking-link-here.com/live", // 模特点击观看链接
+  NAV_JOIN: "https://your-tracking-link-here.com/signup", // 导航栏注册链接
+};
+
+// ==========================================
+// 🖼️ 在这里更换全局图片资源 (Global Assets)
+// ==========================================
+export const ASSETS = {
+  // 主背景图
+  MAIN_BACKGROUND: "https://i.ibb.co/21Mjzf2b/909ad0683961a413845897548483698b.jpg",
+  // 中间/底部展示区域的特色图片
+  INTERACTION_PREVIEW: "https://i.ibb.co/JjRncbr2/5eb3be187b9fab08f76405d7d497d8f3.jpg",
+  // 评论区/在线人数小头像 (Avatar list for Hero section)
+  AVATARS: [
+    "https://i.ibb.co/tMpgLhy6/20201014213922-fd65f.jpg",
+    "https://i.ibb.co/F4CcV7Y7/20230326221613-7e73d-thumb-400-0.jpg",
+    "https://i.ibb.co/4gRWTH5W/myyf255rzvn.jpg",
+    "https://i.ibb.co/1fsnTYtz/sljpiz0y2ht.jpg"
+  ]
+};
+
 export const MODELS: Model[] = [
   {
     id: '1',
     name: 'Elena',
     age: 24,
     location: 'Miami, FL',
-    imageUrl: 'https://i.ibb.co/hFxfv8LF/047d9cbf26c8e71e5f82f3f3db982477.jpg/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/bj3G0p8n/655f0628a14b9051310717494c1ffac7.jpg',
     isLive: true,
     viewerCount: 1240,
     tags: ['Seductive', 'Latin Vibes', 'Midnight Dance']
@@ -18,7 +54,7 @@ export const MODELS: Model[] = [
     name: 'Sasha',
     age: 26,
     location: 'Los Angeles, CA',
-    imageUrl: 'https://i.ibb.co/HTcfVfNr/655f0628a14b9051310717494c1ffac7.jpg/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/pjL3rX5J/67b8d531db19e8716821372f8e2b3636.jpg',
     isLive: true,
     viewerCount: 856,
     tags: ['Elegant Queen', '1-on-1 Private']
@@ -28,7 +64,7 @@ export const MODELS: Model[] = [
     name: 'Jordan',
     age: 22,
     location: 'New York, NY',
-    imageUrl: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&q=80&w=600&h=800',
+    imageUrl: 'https://i.ibb.co/hx7vLwM6/047d9cbf26c8e71e5f82f3f3db982477.jpg',
     isLive: false,
     tags: ['Sweet Temptation', 'Artistic Shoot']
   },
@@ -37,7 +73,7 @@ export const MODELS: Model[] = [
     name: 'Chloe',
     age: 25,
     location: 'Austin, TX',
-    imageUrl: 'https://i.ibb.co/zHtzCZGx/7b47d1160fc3530748f2964a7f98743c.jpg',
+    imageUrl: 'https://i.ibb.co/4xVNHMm/7b47d1160fc3530748f2964a7f98743c.jpg',
     isLive: true,
     viewerCount: 3200,
     tags: ['Top Elite', 'High Challenge']
